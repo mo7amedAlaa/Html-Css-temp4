@@ -1,0 +1,200 @@
+:root{
+    --blue-color:#0075ff;
+    --blue-alt-color:#0d69d5;
+    --orange-color:#f59e0b;
+    --green-color:#22c55e;
+    --red-color:#f44336;
+    --gray-color:#888;
+}
+/* start box  */
+.d-flex{
+    display: flex;
+ }
+ .d-block{
+    display: block;
+ }
+ .d-grid{
+    display: grid;
+ }
+ .align-center
+ { 
+ align-items: center;
+}
+.w-fit{
+    width: fit-content;
+}
+ .w-full{
+width: 100%;
+ }
+ .btn{
+font-size: 14px; 
+border-radius: 6px; 
+width: fit-content;
+border: none;  
+padding: 5px 10px ; 
+height: fit-content; 
+}
+ .outl-none{
+    outline: none;
+ }
+ .border-none{
+    border: none;
+ }
+ @media (max-width: 767px) {
+    .txt-c-mobile{text-align: center;}
+    .block-mobile{display: block;} 
+ }
+ .ph-ani:focus::placeholder{
+    opacity: 0;
+    color: transparent;
+}
+ /* end box */
+ /* start padding -margin  */
+  .p-5{
+     padding: 5px;
+    }
+  .p-10{
+     padding: 10px;
+    }
+  .p-20{
+     padding: 20px;
+    }
+    .p-30{
+        padding: 30px;
+       }
+       .pl-40{padding-left: 40px;}
+       .pr-40{padding-right: 40px;}
+    .m-20{
+        margin: 20px;
+    }
+    .m-0{
+        margin: 0px;
+    }
+    .mt-0{
+        margin-top: 0px;
+    }
+    .mt-5{
+        margin-top: 5px;
+    }
+    .mt-10{
+        margin-top: 10px;
+    }
+    .mt-20{
+        margin-top: 20px;
+    }
+    .mr-20{
+        margin-right: 20px;
+    }
+    .mb-20{
+        margin-bottom: 20px;
+    }
+    .mb-10{
+        margin-bottom: 10px;
+    }
+    .ml-20{
+        margin-left: 20px;
+    }
+/* end padding -margin  */
+/* start color  */
+.bg-white{
+    background-color: white;
+}
+.bg-eee{
+    background-color: #eee;
+}
+.bg-blue{
+    background-color: var(--blue-color);
+}
+.bg-orange{
+    background-color: var(--orange-color);
+}
+.bg-green{
+    background-color: var(--green-color);
+}
+.bg-gray{
+    background-color: var(--gray-color);
+}
+.c-white{
+    color: white;
+}
+.c-gray{
+    color: var(--gray-color);
+}
+.c-orange{
+    color: var(--orange-color);
+}
+
+.c-blue{
+    color: var(--blue-color);
+}
+.c-green{
+    color: var(--green-color);
+}
+.c-red{
+color: var(--red-color);
+}
+.c-black{
+color: black;
+}
+.blue .icon,
+.blue .progress{
+    background-color: rgb(0 117 255 / 20%);
+}
+.orange .icon,
+.orange .progress{
+    background-color:rgb(255 165 0 / 20%);
+}
+.green .icon,
+.green .progress{
+    background-color:rgb(0 128 0 / 20%);
+}
+/* end color  */
+/* start position */
+.p-relative{
+    position: relative;
+}
+/* end position */
+/* start font  */
+.txt-c{
+    text-align: center;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-10{
+    font-size: 10px;
+}
+.fs-13{
+    font-size: 13px;
+}
+.fs-25{
+    font-size: 25px;
+}
+.fw-bold{
+    font-weight: bold;
+}
+/* end font  */
+/* sart border  */
+.rad-6{
+    border-radius: 6px;
+}
+.rad-10{
+    border-radius: 10px;
+}
+/* end border  */
+/* start component*/
+.between-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.gap-20{
+    gap: 20px;
+}
+.center-flex{
+    display: flex;
+    align-items: center;
+}
+/* end  component*/
